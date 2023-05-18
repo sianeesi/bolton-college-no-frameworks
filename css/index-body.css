@@ -1,0 +1,277 @@
+a, li, b, p, ul, div, h1, h2, h3, h4 {
+  font-family: 'calibri';
+}
+.page-header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+  position: relative;
+  box-sizing: inherit;
+  background-color: #ffffff;
+}
+
+.page-banner {
+  background-color: #cacaca !important;
+  width: 100%;
+}
+
+.page-body-one {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+  box-sizing: inherit;
+  background-color: #ffffff !important;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.page-footer {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: x-large;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+  margin-left: 7px;
+}
+
+
+.body-text {
+  text-align: left;
+  font-weight: 300;
+  font-size: xx-large;
+  max-width: 1585px;
+  width: 100%;
+  margin-left: 0;
+}
+
+.course-container {
+  position: relative;
+}
+
+.courses-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.courses-container .row {
+  display: flex;
+  flex-flow: row;
+}
+
+.courses-container .row-two {
+  display: flex;
+  flex-flow: row;
+}
+
+.course-container {
+  width: 33%;
+}
+
+/* Centers course title */
+.course-container ul li.li-text {
+  text-align: center;
+  line-height: 30px;
+  width: 380px;
+  height: 30px;
+  background-color: #b1b1b1;
+  color: #ffffff;
+}
+
+
+/* Removing stylings from the bolton-courses ul */
+.course-container ul {
+  margin-top: -3px;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* hover text */
+.course-container ul li div {
+  display: none;
+  width: 380px;
+  height: 250px;
+}
+
+.course-container ul li:hover div {
+  display: block;
+  background: rgba(143, 210, 255, 0.8);
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  line-height: auto;
+  text-align: center;
+}
+
+.course-container ul li div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  font-size: medium;
+}
+
+
+
+/* Properties of LOCATION FINDER */
+/* background colour of location finder */
+.page-grey-two {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding-bottom: 25px;
+}
+
+/* margins of location finder */
+.page-two {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* info box next to google maps */
+.info-hours {
+  height: 350px;
+  position: absolute;
+  width: 37.8% !important;
+  margin-left: 746px !important;
+  border-radius: 5%;
+}
+
+/* size of location finder */
+.location {
+  height: 400px;
+  width: 100%;
+}
+
+.bolton-location {
+  padding-top: 0.5px;
+}
+
+
+/* OPENING TIMES */
+.opening-times-left {
+  margin-top: 25px;
+  margin-left: 40px;
+  border-style: solid;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  list-style: none;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #f3f3f3;
+  color: #4a4a4a;
+  height: 230px;
+  width: 85%;
+  float: left;
+  position: relative;
+  height: 210px;
+}
+
+.opening-times-left h4 {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #4a4a4a;
+  font-weight: 500 !important;
+  font-size: 21.5px !important;
+}
+
+.opening-header {
+  font-weight: 500;
+  font-size: 21.5px;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 15px;
+  margin-right: 22px;
+}
+
+.opening-days {
+  list-style: none;
+  width: 35%;
+  float: left;
+  margin-top: 5px;
+  padding: 0%;
+  margin-left: 60px;
+}
+
+.opening-hours {
+  list-style: none;
+  width: 35%;
+  float: right;
+  margin-right: 40px;
+  margin-top: 5px;
+  padding: 0%;
+}
+
+.location-address {
+  margin-top: -2px;
+  border-style: solid;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  margin-right: 10px;
+  margin-left: 40px;
+  list-style: none;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #f3f3f3;
+  height: 105px;
+  width: 85%;
+  float: left;
+  color: #4a4a4a;
+  height: 135px;
+
+}
+
+.location-address h4 {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #4a4a4a;
+  font-weight: 500 !important;
+  font-size: 21.5px !important;
+}
+
+
+.location-address a {
+  color: #4a4a4a;
+  list-style: none;
+  width: 35%;
+  float: left;
+  margin-top: 5px;
+  padding: 0%;
+  margin-left: 60px;
+  text-decoration: none;
+}
+
+.facilities {
+  list-style: none;
+  width: 35%;
+  float: right;
+  margin-right: 40px;
+  margin-top: 5px;
+  padding: 0%;
+}
+
+.facilities li i {
+  color: #9e9e9e;
+  font-size: 15px;
+}
+
+.facilities li {
+  color: #4a4a4a;
+}

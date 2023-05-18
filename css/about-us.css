@@ -1,0 +1,50 @@
+.about-body-one {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    box-sizing: inherit;
+    background-color: #ffffff !important;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.about-us-header {
+    text-align: left;
+    font-weight: 300;
+    font-size: xx-large;
+    max-width: 1585px;
+    width: 100%;
+    margin-left: 0;
+}
+
+
+.about-us-container .left{
+  margin-right: 20px;
+}
+
+
+.about-us-container .left, .about-us-container .right{
+  float: left;
+  width: calc(50% - 10px);
+  background-color: #F5F5F5;
+}
+
+.about-us-container div p{
+  padding: 20px;
+  color:  #525252;
+}
+
+.about-us-container div div{
+  background-color: #E0E0E0;
+}
+
+
+.about-us-container div div img{
+  width: calc(100% - 20px);
+  padding: 10px;
+  height: 290px;
+  object-fit: cover;
+}

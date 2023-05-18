@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'Calibri';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7adnpV-BGlaFfdAhLQo6btPMDoTpA&skey=36a3d5758e0e2f58&v=v15) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Calibri';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aYnpV-BGlaFfdAhLQgUp5aHRgejiMIKQ&skey=8b00183e5f6700b6&v=v15) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7afnpV-BGlaFfdAhLEY67FIEjg&skey=a1029226f80653a8&v=v15) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v15) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+/* logo */
+.logo {
+    margin-top: 5px;
+    width: 110px;
+    float: left;
+    text-align: left;
+}
+
+
+
+
+/* header navigations */
+nav {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 100px;
+    font-size: medium;
+    font-family: 'Calibri';
+}
+
+.nav {
+    width: calc(60% - 150px);
+    float: left;
+    text-align: left;
+    margin-top: 70px;
+    
+}
+
+.nav a {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80px;
+    text-decoration: none;
+    color: #272527;
+    position: relative;
+}
+
+.nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background-color: #942a7b;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+    z-index: 1;
+}
+
+.nav a:hover::after, .nav a.active::after {
+    bottom: -17px;
+    opacity: 1;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+/* header buttons */
+.buttons {
+    width: 40%;
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.buttons li {
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+    margin-right: 8px;
+    font-size: 5px;
+}
+
+
+
+.header-button {
+    cursor: pointer;
+    background-color: #699DB1;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Calibri';
+}
+
+.header-button:hover {
+    background-color: #942a7b;
+    transition-duration: 0.4s;
+}
+
+
+
+
+/* header social bar */
+.social-bar {
+    background-color: #699DB1;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.social-bar li {
+    float: right;
+    line-height: 40px;
+}
+
+.social-bar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.social-bar li:first-child {
+    margin-right: 20px;
+}
+
+.social-bar a:hover {
+    background-color: #3d6270;
+    transition-duration: 0.4s;
+}
+
+
+/* telephone number */
+.social-tel {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* social media icons */
+.social-icon {
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px !important;
+}
+
+.fa-facebook {
+    color: #ffffff;
+    margin-right: 131px
+}
+
+.fa-twitter {
+    color: #ffffff;
+}
+
+.fa-youtube-play {
+    color: #ffffff;
+}
+
+.fa-snapchat-ghost {
+    color: #ffffff;
+}
+
+.fa-instagram {
+    color: #ffffff;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    color: #699DB1;
+    text-align: center;
+}
+
+.details {
+    background-color: #942a7b;
+    text-align: center;
+    color: #ffffff;
+}
+
+.details p {
+    margin: 0;
+    padding: 0;
+}

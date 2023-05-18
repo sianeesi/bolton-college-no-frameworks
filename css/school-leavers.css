@@ -1,0 +1,73 @@
+.school-body-one {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    box-sizing: inherit;
+    background-color: #ffffff !important;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .school-text {
+    text-align: left;
+    font-weight: 300;
+    font-size: xx-large;
+    max-width: 1585px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .course-selection {
+    text-align: left;
+    font-weight: 200;
+    font-size: x-large;
+    margin-left: 0;
+    padding-bottom: 25px;
+  }
+
+/* SCHOOL LEAVERS TABLE */
+/* TABLE SETTINGS */
+table {
+  border-spacing: 0;
+}
+
+td {
+  padding-left: 10px;
+  font-family: 'calibri' !important;
+  font-weight: 400;
+}
+
+thead tr th{
+  text-align: left;
+  font-family: 'calibri' !important;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+/* COLUMN BACKGROUND COLOURS */ 
+table tbody tr:nth-child(odd) td{
+    background-color: #F5F5F5;
+}
+table tbody tr:nth-child(even) td{
+    background-color: #E5E5E5;
+}
+
+
+/* APPLY NOW BUTTON */
+.school-button {
+  cursor: pointer;
+  background-color: #565656;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  font-family: 'Calibri';
+  border-radius: 10px;
+}
+
+.school-leavers-table {
+  margin-bottom: 35px;
+}
